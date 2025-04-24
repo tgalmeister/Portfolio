@@ -1,6 +1,8 @@
-# 👨‍💻 Security Engineer Portfolio
+# 👨‍💻 Tanner Galmeister — Security Engineer
 
-Hi! I'm Tanner Galmeister, a prospective Security Engineer passionate about offensive and defensive cybersecurity. I specialize in securing cloud infrastructure, building threat detection pipelines, and automating security operations. I leverage a wide range of tools, languages, and platforms to help organizations stay secure.
+📍 American Fork, UT • 🌐 [LinkedIn](https://www.linkedin.com/in/tanner-galmeister/)
+
+Hi there! I'm Tanner, a Security Engineer with a strong background in security operations, automation, and log analytics. I enjoy building efficient pipelines, developing detection capabilities, and automating response workflows to defend against modern cyber threats.
 
 ---
 
@@ -9,8 +11,7 @@ Hi! I'm Tanner Galmeister, a prospective Security Engineer passionate about offe
 - 🧰 **Security Domains:** Threat Detection | Incident Response | Cloud Security | Network Defense | Vulnerability Management
 - ☁️ **Cloud Platforms:** AWS | Azure | GCP
 - 🛠️ **Tools & Tech:** Burp Suite | Nmap | Wireshark | Snort | Suricata | Splunk | Cribl | ModSecurity | CrowdStrike | Rapid7
-- 🧠 **Certifications:** CEH | Security+ | Azure SC-200 *(update based on what you have)*
-- 💬 **Blog & Writeups:** [Your Blog](https://yourblog.com) *(optional)*
+- 🧠 **Certifications:** ISC2 CC | Security+ | CEH - In Progress
 - 📫 **Contact:** [LinkedIn](https://linkedin.com/in/yourname) | [Email](mailto:youremail@example.com)
 
 ---
@@ -31,7 +32,7 @@ Hi! I'm Tanner Galmeister, a prospective Security Engineer passionate about offe
 
 ---
 
-### 🧪 Active Directory Attack Lab
+### 🧪 Active Directory Attack Lab - In Progress
 > Built a home lab with Proxmox and simulated Windows AD infrastructure to test lateral movement, pass-the-hash, Golden Ticket attacks, and endpoint defenses.  
 > **Tools:** Mimikatz, BloodHound, CrackMapExec, Sysmon  
 > [🔗 View Lab Setup](https://github.com/yourusername/ad-lab)
@@ -46,7 +47,7 @@ Hi! I'm Tanner Galmeister, a prospective Security Engineer passionate about offe
 
 ## 📚 Learning & Labs
 
-- [x] TryHackMe: ~[YourUsername](https://tryhackme.com/p/yourname)  
+- [x] TryHackMe: ~[tgalmeister](https://tryhackme.com/p/tgalmeister)  
 - [x] Hack The Box: ~[YourUsername](https://app.hackthebox.com/profile/yourname)  
 - [x] TCM Security Labs – Practical Ethical Hacking  
 - [x] Cloud Labs: AWS IAM misconfig labs & Azure AD enumeration  
@@ -56,6 +57,7 @@ Hi! I'm Tanner Galmeister, a prospective Security Engineer passionate about offe
 
 ## 🧠 Currently Exploring
 
+-  Studying for CEH certificaitons excam
 - 🪝 Webhook & SOAR automation with Torq.ai and CommandZero  
 - 🤖 LLM-based log correlation & anomaly detection  
 - 🏴‍☠️ Adversary emulation and detection engineering
