@@ -20,30 +20,33 @@ Hi there! I'm Tanner, a Security Engineer with a strong background in security o
 
 ## 🚀 Projects & Work Highlights
 
+### 🔎 Phishing Detection with Machine Learning
+Built a robust phishing URL detection pipeline combining static URL feature analysis with machine learning. Integrated multiple datasets, including labeled legacy and novel phishing sources. Extracted lexical and structural features (e.g., URL length, domain complexity, subdomain entropy), and engineered indicators for obfuscation techniques and HTTPS usage. Applied dataset balancing via `RandomOverSampler`, and tuned a `RandomForestClassifier` using `RandomizedSearchCV`.
+
+Performed recursive feature elimination with cross-validation (RFECV) to reduce overfitting and improve generalization. Evaluated performance through stratified validation, 5-fold cross-validation, and out-of-distribution testing using an external phishing dataset to measure domain shift. Also implemented a live prediction loop for real-time phishing detection.
+
+**Tools & Libraries:** Python, `scikit-learn`, `imbalanced-learn`, `pandas`, `swifter`, `joblib`, `tldextract`, `matplotlib`, `seaborn`  
+**Techniques:** Feature engineering, resampling, hyperparameter tuning, RFECV, domain shift analysis, model serialization  
+🔗 [View Project](https://github.com/yourusername/phishing-detector)
+
+---
+
 ### 🔁 AI-Driven SOC Automation (Torq.ai)
-Automated phishing email response and alert enrichment using dynamic workflows in Torq.ai. Integrated with Graph API, Exchange, and Proofpoint for intelligent decision-making and playbook execution.  
-**Tools**: Torq.ai, Microsoft Graph, Proofpoint, REST API  
-🔗 *Coming soon to GitHub*
+Automated phishing email response and alert enrichment using dynamic workflows in Torq.ai. Integrated with Graph API, Exchange, and Virustotal for intelligent decision-making and playbook execution.
+
+**Tools**: Torq.ai, Microsoft Graph, Exchange, Virustotal  
 
 ---
 
 ### 📦 Log Ingestion & Enrichment Pipelines
-Deployed Cribl Edge agents on endpoints and configured Stream pipelines for filtering, routing, and enriching logs before forwarding to Rapid7 and Elastic Stack.  
-**Tech**: Cribl Stream/Edge, JSON, Regex, InsightIDR, Wazuh  
-🔗 *Coming soon to GitHub*
-
----
-
-### 🔎 Phishing Detection with Machine Learning
-> Built a phishing URL detection model using RandomForest, XGBoost, and LSTM. Applied feature extraction, dataset balancing, and hyperparameter tuning.  
-> **Tech:** Python, scikit-learn, imbalanced-learn, pandas  
-> [🔗 View Project](https://github.com/yourusername/phishing-detector)
+> Deployed Cribl Edge agents on endpoints and configured Stream pipelines for filtering, routing, and enriching logs before forwarding to Rapid7 InsightIDR. 
+**Tools**: Cribl Stream/Edge, JSON, Regex, Rapid7 InsightIDR
 
 ---
 
 ### 📦 ModSecurity WAF Ruleset
 > Developed custom OWASP CRS-style WAF rules for SQLi, XSS, and CSRF detection. Tested against real attack payloads.  
-> [🔗 View Rules](https://github.com/yourusername/modsecurity-rules)
+> [🔗 View Project](https://github.com/yourusername/modsecurity-rules)
 
 ---
 
@@ -76,10 +79,10 @@ Deployed Cribl Edge agents on endpoints and configured Stream pipelines for filt
 
 | Year | Paper | Course / Context | Highlights |
 |------|-------|------------------|------------|
-| 2025 | **Phishing URL Detection Using Machine Learning** <br>*(PDF linked in repo)* | M.S. Cybersecurity — Capstone / Independent Research | • Trained Random Forest, XGBoost, and LSTM models on the PhiUSIIL dataset (235 k URLs).<br>• Engineered 25+ URL features, balanced classes with SMOTE, and achieved 98 % F1 on external test sets.<br>• Benchmarked model drift, produced ROC/PR curves, and released Jupyter notebooks & Dockerfile for reproducibility. |
-| 2025 | **Cyberlaw for Software Companies** <br>*(PDF attached)* | **Law, Ethics, and Privacy in Cybersecurity** | • Analyzes legal obligations and ethical considerations for SaaS vendors.<br>• Covers vulnerability disclosure, breach-notification, and global privacy laws (GDPR, CCPA).<br>• Recommends governance frameworks for secure-by-design development. |
+| 2025 | **[Phishing URL Detection Using Machine Learning]()** <br> | M.S. Cybersecurity — Capstone / Independent Research | • Trained Random Forest, XGBoost, and LSTM models on the PhiUSIIL dataset (235 k URLs).<br>• Engineered 25+ URL features, balanced classes with SMOTE, and achieved 98 % F1 on external test sets.<br>• Benchmarked model drift, produced ROC/PR curves, and released Jupyter notebooks & Dockerfile for reproducibility. |
+| 2025 | **[Cyberlaw for Software Companies](https://github.com/tgalmeister/Law-Ethics-Privacy-in-Cybersecurity/tree/main)** <br> | Law, Ethics, and Privacy in Cybersecurity | • Analyzes legal obligations and ethical considerations for SaaS vendors.<br>• Covers vulnerability disclosure, breach-notification, and global privacy laws (GDPR, CCPA).<br>• Recommends governance frameworks for secure-by-design development. |
 
-> 📌 *Each paper is included in this repository—feel free to download and read.*
+> 📌 *Each paper is attached to a repository—feel free to download and read.*
 
 
 ## 🧪 Hands-On & Community
