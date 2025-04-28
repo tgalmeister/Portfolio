@@ -32,32 +32,25 @@ Performed recursive feature elimination with cross-validation (RFECV) to reduce 
 ---
 
 ### 🔁 AI-Driven SOC Automation (Torq.ai)
-Automated phishing email response and alert enrichment using dynamic workflows in Torq.ai. Integrated with Graph API, Exchange, and Virustotal for intelligent decision-making and playbook execution.
-
+Designed and deployed AI-driven automation workflows using the Torq.ai platform to streamline SOC operations—automating case creation, enriching alerts with contextual intelligence, and executing dynamic runbooks for repetitive tasks such as phishing email triage and response.
 **Tools**: Torq.ai, Microsoft Graph, Exchange, Virustotal  
 
 ---
 
-### 📦 Log Ingestion & Enrichment Pipelines
-> Deployed Cribl Edge agents on endpoints and configured Stream pipelines for filtering, routing, and enriching logs before forwarding to Rapid7 InsightIDR. 
-**Tools**: Cribl Stream/Edge, JSON, Regex, Rapid7 InsightIDR
+### 🧰 SIEM & Log Pipeline with Cribl
+Optimized Cribl Stream and Edge pipelines to enhance real-time log ingestion, enrichment, and routing for security and operational analytics. Deployed and configured Cribl Edge agents on endpoints and servers to collect telemetry data and forward it to Rapid7 InsightIDR, improving visibility and reducing noise through targeted filtering.
+**Tech:** Cribl, JSON, REST API, Graph API  
 
 ---
 
 ### 📦 ModSecurity WAF Ruleset
-> Developed custom OWASP CRS-style WAF rules for SQLi, XSS, and CSRF detection. Tested against real attack payloads.  
-> [🔗 View Project](https://github.com/yourusername/modsecurity-rules)
+This project demonstrates the installation, configuration, and testing of ModSecurity with the OWASP Core Rule Set (CRS) on an Ubuntu SEED virtual machine to protect against common web application attacks, including SQL Injection (SQLi), Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF). After installing and tuning ModSecurity, custom rules were developed and tested against known vulnerable websites, successfully blocking exploitation attempts and verifying protection through server audit logs. The project showcases how ModSecurity, even with default CRS settings, can effectively defend against many critical web security threats when properly configured. 
+🔗 [View Project](https://github.com/tgalmeister/modsecurity-rules)
+
 
 ---
 
-### 🧰 SIEM & Log Pipeline with Cribl
-> Designed Cribl Stream and Edge pipelines to enrich, filter, and route logs to Rapid7, Elastic, and S3. Integrated Microsoft Graph, Okta, and CrowdStrike APIs for SOC alert automation.  
-> **Tech:** Cribl, JSON, REST API, Graph API  
-🔗 *Coming soon to GitHub*
-
----
-
-### 🧪 Active Directory Attack Lab - In Progress
+### 🧪 Active Directory Attack Lab - Coming Soon
 > Building a home lab with Proxmox and simulated Windows AD infrastructure to test lateral movement, pass-the-hash, Golden Ticket attacks, and endpoint defenses.  
 > **Tools:** Mimikatz, BloodHound, CrackMapExec, Sysmon  
 > 🔗 *Coming soon to GitHub*
@@ -79,8 +72,8 @@ Automated phishing email response and alert enrichment using dynamic workflows i
 
 | Year | Paper | Course / Context | Highlights |
 |------|-------|------------------|------------|
-| 2025 | **[Phishing URL Detection Using Machine Learning]()** <br> | M.S. Cybersecurity — Capstone / Independent Research | • Trained Random Forest, XGBoost, and LSTM models on the PhiUSIIL dataset (235 k URLs).<br>• Engineered 25+ URL features, balanced classes with SMOTE, and achieved 98 % F1 on external test sets.<br>• Benchmarked model drift, produced ROC/PR curves, and released Jupyter notebooks & Dockerfile for reproducibility. |
-| 2025 | **[Cyberlaw for Software Companies](https://github.com/tgalmeister/Law-Ethics-Privacy-in-Cybersecurity/tree/main)** <br> | Law, Ethics, and Privacy in Cybersecurity | • Analyzes legal obligations and ethical considerations for SaaS vendors.<br>• Covers vulnerability disclosure, breach-notification, and global privacy laws (GDPR, CCPA).<br>• Recommends governance frameworks for secure-by-design development. |
+| 2025 | **[Phishing URL Detection Using Machine Learning](https://github.com/tgalmeister/AI-Based-Phishing-URL-Detection)** <br> | M.S. Cybersecurity — Capstone / Independent Research | • Trained Random Forest, XGBoost, and LSTM models on the PhiUSIIL dataset (235 k URLs).<br>• Engineered 25+ URL features, balanced classes with SMOTE, and achieved 98 % F1 on external test sets.<br>• Benchmarked model drift, produced ROC/PR curves, and released Jupyter notebooks & Dockerfile for reproducibility. |
+| 2025 | **[Cyberlaw for Software Companies](https://github.com/tgalmeister/Law-Ethics-Privacy-in-Cybersecurity)** <br> | Law, Ethics, and Privacy in Cybersecurity | • Analyzes legal obligations and ethical considerations for SaaS vendors.<br>• Covers vulnerability disclosure, breach-notification, and global privacy laws (GDPR, CCPA).<br>• Recommends governance frameworks for secure-by-design development. |
 
 > 📌 *Each paper is attached to a repository—feel free to download and read.*
 
