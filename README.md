@@ -20,14 +20,14 @@ Hi there! I'm Tanner, a Security Engineer with a strong background in security o
 
 ## 🚀 Projects & Work Highlights
 
-### 🔎 Phishing Detection with Machine Learning
+### 🔎 AI-Based Phishing URL Detection
 Built a robust phishing URL detection pipeline combining static URL feature analysis with machine learning. Integrated multiple datasets, including labeled legacy and novel phishing sources. Extracted lexical and structural features (e.g., URL length, domain complexity, subdomain entropy), and engineered indicators for obfuscation techniques and HTTPS usage. Applied dataset balancing via `RandomOverSampler`, and tuned a `RandomForestClassifier` using `RandomizedSearchCV`.
 
 Performed recursive feature elimination with cross-validation (RFECV) to reduce overfitting and improve generalization. Evaluated performance through stratified validation, 5-fold cross-validation, and out-of-distribution testing using an external phishing dataset to measure domain shift. Also implemented a live prediction loop for real-time phishing detection.
 
 **Tools & Libraries:** Python, `scikit-learn`, `imbalanced-learn`, `pandas`, `swifter`, `joblib`, `tldextract`, `matplotlib`, `seaborn`  
 **Techniques:** Feature engineering, resampling, hyperparameter tuning, RFECV, domain shift analysis, model serialization  
-🔗 [View Project](https://github.com/yourusername/phishing-detector)
+🔗 [View Project](https://github.com/tgalmeister/AI-Based-Phishing-URL-Detection)
 
 ---
 
