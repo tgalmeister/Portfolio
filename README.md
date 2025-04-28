@@ -26,7 +26,8 @@ Built a robust phishing URL detection pipeline combining static URL feature anal
 Performed recursive feature elimination with cross-validation (RFECV) to reduce overfitting and improve generalization. Evaluated performance through stratified validation, 5-fold cross-validation, and out-of-distribution testing using an external phishing dataset to measure domain shift. Also implemented a live prediction loop for real-time phishing detection.
 
 **Tools & Libraries:** Python, `scikit-learn`, `imbalanced-learn`, `pandas`, `swifter`, `joblib`, `tldextract`, `matplotlib`, `seaborn`  
-**Techniques:** Feature engineering, resampling, hyperparameter tuning, RFECV, domain shift analysis, model serialization  
+**Techniques:** Feature engineering, resampling, hyperparameter tuning, RFECV, domain shift analysis, model serialization 
+ 
 🔗 [View Project](https://github.com/tgalmeister/AI-Based-Phishing-URL-Detection)
 
 ---
@@ -44,16 +45,19 @@ Optimized Cribl Stream and Edge pipelines to enhance real-time log ingestion, en
 ---
 
 ### 📦 ModSecurity WAF Ruleset
-This project demonstrates the installation, configuration, and testing of ModSecurity with the OWASP Core Rule Set (CRS) on an Ubuntu SEED virtual machine to protect against common web application attacks, including SQL Injection (SQLi), Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF). After installing and tuning ModSecurity, custom rules were developed and tested against known vulnerable websites, successfully blocking exploitation attempts and verifying protection through server audit logs. The project showcases how ModSecurity, even with default CRS settings, can effectively defend against many critical web security threats when properly configured. 
+This project demonstrates the installation, configuration, and testing of ModSecurity with the OWASP Core Rule Set (CRS) on an Ubuntu SEED virtual machine to protect against common web application attacks, including SQL Injection (SQLi), Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF). After installing and tuning ModSecurity, custom rules were developed and tested against known vulnerable websites, successfully blocking exploitation attempts and verifying protection through server audit logs. The project showcases how ModSecurity, even with default CRS settings, can effectively defend against many critical web security threats when properly configured.
+
+**Tools**: ModSecurity, OWASP Core Rule Set (CRS), Ubuntu SEED VM, Apache2, SeedLab Test Sites (SQLi, XSS, CSRF)
+
 🔗 [View Project](https://github.com/tgalmeister/modsecurity-rules)
 
 
 ---
 
 ### 🧪 Active Directory Attack Lab - Coming Soon
-> Building a home lab with Proxmox and simulated Windows AD infrastructure to test lateral movement, pass-the-hash, Golden Ticket attacks, and endpoint defenses.  
-> **Tools:** Mimikatz, BloodHound, CrackMapExec, Sysmon  
-> 🔗 *Coming soon to GitHub*
+Building a home lab with Proxmox and simulated Windows AD infrastructure to test lateral movement, pass-the-hash, Golden Ticket attacks, and endpoint defenses.  
+**Tools:** Mimikatz, BloodHound, CrackMapExec, Sysmon  
+🔗 *Coming soon to GitHub*
 
 ---
 
