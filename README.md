@@ -1,8 +1,8 @@
-# 👨‍💻 Tanner Galmeister — Security Engineer
+# 👨‍💻 Tanner Galmeister
 
 📍 American Fork, UT • 📧 tanner.galmeister@gmail.com • 🌐 [LinkedIn](https://www.linkedin.com/in/tanner-galmeister/)
 
-Hi there! I'm Tanner, a Security Engineer with a strong background in security operations, automation, and log analytics. I enjoy building efficient pipelines, developing detection capabilities, and automating response workflows to defend against modern cyber threats.
+Hi there! I'm Tanner, I have a strong background in system administration, security operations, automation, and log analytics. I enjoy building efficient pipelines, developing detection capabilities, and automating response workflows to defend against modern cyber threats.
 
 ---
 
