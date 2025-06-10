@@ -57,7 +57,18 @@ This project demonstrates the installation, configuration, and testing of ModSec
 ### 🧪 Active Directory Attack Lab - Coming Soon
 Building a home lab with Proxmox and simulated Windows AD infrastructure to test lateral movement, pass-the-hash, Golden Ticket attacks, and endpoint defenses.  
 **Tools:** Mimikatz, BloodHound, CrackMapExec, Sysmon  
-🔗 *Coming soon to GitHub*
+
+🔗 [View Project](https://github.com/tgalmeister/proxmox)
+
+---
+
+### ⚙️ Cross-Platform Automation & Scripting Toolkit
+
+Developed a versatile collection of automation scripts spanning PowerShell, Python, and Bash to streamline daily administrative and security tasks across Windows and Linux environments. Key scripts include PowerShell modules for Exchange Online mailbox management, permission auditing, and mail flow troubleshooting; Python scripts for system monitoring, file processing, and API integrations; and Bash scripts for log rotation, system updates, and service orchestration on Linux servers. Emphasized modular design, error handling, and logging to ensure reliability and maintainability. Several scripts integrate with Microsoft Graph API and other cloud services to automate complex workflows and reporting.
+
+**Tools & Languages:** PowerShell, Python, Bash, Microsoft Graph API, Exchange Online, Linux CLI
+
+🔗 [View Project](https://github.com/tgalmeister/scripting)
 
 ---
 
